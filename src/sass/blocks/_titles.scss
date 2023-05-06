@@ -1,0 +1,11 @@
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    color: $black_color;
+    text-align: center;
+    &_left {
+        text-align: left;
+        font-size: 34px;
+        color: $white_color;
+    }
+}
