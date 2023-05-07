@@ -38,6 +38,21 @@
             width: 620px;
         }
     }
+
+    .feed {
+        &__item {
+            align-items: center;
+            flex-direction: column;
+        }
+        &__img {
+            margin: 0 auto;
+            padding-left: 60px;
+            padding-bottom: 40px;
+        }
+        &__text {
+            text-align: center;
+        }
+    }
 }
 
 @media ( max-width:  575px) {
@@ -84,6 +99,13 @@
         padding: 50px 0 70px 0;
         &__descr {
             font-size: 14px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 300px;
+            height: 165px;
+            padding: 35px 35px 60px 35px;
         }
     }
 }

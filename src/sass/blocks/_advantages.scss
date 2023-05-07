@@ -35,5 +35,22 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_animatedHeart {
+            animation: heartBeat;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        &_animatedShoe {
+            animation: swing;
+            animation-duration: 1.2s;
+            animation-iteration-count: infinite;
+        }
+        &_animatedCup {
+            animation: tada;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        }
+    }
 
 }
